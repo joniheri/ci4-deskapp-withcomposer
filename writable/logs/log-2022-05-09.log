@@ -1,0 +1,896 @@
+CRITICAL - 2022-05-09 04:40:24 --> Undefined property: CodeIgniter\Autoloader\Autoloader::$load
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Pages.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp-8.1.5\\...', 5)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-8.1.5\\...')
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#10 {main}
+CRITICAL - 2022-05-09 04:41:08 --> Call to undefined function App\Controllers\is_https()
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp-8.1.5\\...')
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#9 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 439)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Toolbar.php(439): header('Content-Type: a...')
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:51 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:55:52 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 439)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Toolbar.php(439): header('Content-Type: a...')
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:25 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:26 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:27 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:27 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:27 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 439)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Toolbar.php(439): header('Content-Type: a...')
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#7 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 500 In...', true, 500)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:49 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 04:58:50 --> Uncaught ErrorException: Cannot modify header information - headers already sent by (output started at C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Config\Events.php:32) in C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php:112
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Cannot modify h...', 'C:\\xampp-8.1.5\\...', 112)
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Debug\Exceptions.php(112): header('HTTP/1.1 404 No...', true, 404)
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-09 05:05:26 --> Unknown named parameter $uri
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pages/daskboard', Array, true)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Pages.php(9): view('pages/daskboard')
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#9 {main}
