@@ -1,0 +1,3 @@
+<?= view('layout/footer') ?>
+
+</html>

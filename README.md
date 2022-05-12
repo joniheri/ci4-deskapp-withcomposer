@@ -1,3 +1,14 @@
+# JON HERI DOCUMENTATION
+
+## How To Installation Using Composer
+
+- This is CodeIgniter versi 4.1.9
+- Disini develop menggunakan PHP Versi 8.1 atau bisa menggunakan XAMPP Versi 8
+- Pastikan Composer sudah terinstall
+- Untuk menginstall CodeIgniter versi 4.1.9 ini menggunakan Composer, dengan cara mengetikkan di terminal "composer create-project codeigniter4/appstarter name-project --no-dev"
+- Setelah terinstall, silahkan buka project CodeIgniter4 ini, kemudian ketiikan di terminal "php spark serve"
+- Jika di terminal tampil "http://localhost:8080", berarti project CodeIgniter4 kita sudah bisa jalan di browser mdengan mengunjungi link "http://localhost:8080"
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
@@ -73,12 +84,3 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - Pada file "codeigniter4/.env", ubah sintak "CI_ENVIRONMENT = production" menjadi "CI_ENVIRONMENT = development"
 - Pastikan file "PHP.ini" yang ada pada XAMPP, ubah sintak ";extension=intl" menjadi "extension=intl"
 - Sika semua langkah2 diatas sudah, Project CI4 sudah bisa di jalankan di browser.
-
-## How To Installation Using Composer
-
-- This is CodeIgniter versi 4.1.9
-- Disini develop menggunakan PHP Versi 8.1 atau bisa menggunakan XAMPP Versi 8
-- Pastikan Composer sudah terinstall
-- Untuk menginstall CodeIgniter versi 4.1.9 ini menggunakan Composer, dengan cara mengetikkan di terminal "composer create-project codeigniter4/appstarter name-project --no-dev"
-- Setelah terinstall, silahkan buka project CodeIgniter4 ini, kemudian ketiikan di terminal "php spark serve"
-- Jika di terminal tampil "http://localhost:8080", berarti project CodeIgniter4 kita sudah bisa jalan di browser mdengan mengunjungi link "http://localhost:8080"
