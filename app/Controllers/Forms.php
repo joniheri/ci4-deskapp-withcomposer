@@ -21,7 +21,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/form_basic', $data);
     echo view('layout/foot');
   }
 
@@ -40,7 +40,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/advanced_component', $data);
     echo view('layout/foot');
   }
 
@@ -59,7 +59,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/form_wizard', $data);
     echo view('layout/foot');
   }
 
@@ -78,7 +78,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/html5_editor', $data);
     echo view('layout/foot');
   }
 
@@ -97,7 +97,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/form_pickers', $data);
     echo view('layout/foot');
   }
 
@@ -116,7 +116,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/image_croppers', $data);
     echo view('layout/foot');
   }
 
@@ -135,7 +135,7 @@ class Forms extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('forms/image_dropzone', $data);
     echo view('layout/foot');
   }
 }

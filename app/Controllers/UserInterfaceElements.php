@@ -19,9 +19,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/buttons', $data);
     echo view('layout/foot');
   }
+
   public function cards()
   {
     $page = 'UI Elements';
@@ -35,9 +36,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/cards', $data);
     echo view('layout/foot');
   }
+
   public function cards_hover()
   {
     $page = 'UI Elements';
@@ -51,9 +53,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/cards_hover', $data);
     echo view('layout/foot');
   }
+
   public function modals()
   {
     $page = 'UI Elements';
@@ -67,9 +70,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function tabs()
   {
     $page = 'UI Elements';
@@ -83,9 +87,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function tooltip()
   {
     $page = 'UI Elements';
@@ -99,9 +104,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function sweet_alert()
   {
     $page = 'UI Elements';
@@ -115,9 +121,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function notification()
   {
     $page = 'UI Elements';
@@ -131,9 +138,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function timeline()
   {
     $page = 'UI Elements';
@@ -147,9 +155,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function progressbar()
   {
     $page = 'UI Elements';
@@ -163,9 +172,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function typography()
   {
     $page = 'UI Elements';
@@ -179,9 +189,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function list_group()
   {
     $page = 'UI Elements';
@@ -195,9 +206,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function range_slider()
   {
     $page = 'UI Elements';
@@ -211,9 +223,10 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
+
   public function carousel()
   {
     $page = 'UI Elements';
@@ -227,7 +240,7 @@ class UserInterfaceElements extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('user_interface_elements/user_interface_elements_style1', $data);
     echo view('layout/foot');
   }
 }

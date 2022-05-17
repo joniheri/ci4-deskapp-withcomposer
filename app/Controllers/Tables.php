@@ -21,7 +21,7 @@ class Tables extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style1', $data);
+    echo view('tables/basic_tables', $data);
     echo view('layout/foot');
   }
 
@@ -39,7 +39,7 @@ class Tables extends BaseController
     ];
 
     echo view('layout/head');
-    echo view('dashboard/dashboard_style2', $data);
+    echo view('tables/data_tables', $data);
     echo view('layout/foot');
   }
 }

@@ -1,0 +1,140 @@
+CRITICAL - 2022-05-13 02:38:58 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 02:41:25 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:08:43 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:09:44 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:13:48 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:24:17 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\ComponentForms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ComponentForms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentForms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:24:33 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\ComponentForms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ComponentForms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentForms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:24:34 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\ComponentForms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ComponentForms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentForms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:24:34 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\ComponentForms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ComponentForms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentForms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:25:07 --> Invalid file: forms/form_basic.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/form_basi...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/form_basi...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\ComponentForms.php(24): view('forms/form_basi...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\ComponentForms->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComponentForms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 03:56:41 --> Invalid file: forms/advanced_components.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/advanced_...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/advanced_...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(43): view('forms/advanced_...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->advanced_components()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 04:04:11 --> Invalid file: forms/forms_style2.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forms/forms_sty...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('forms/forms_sty...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Forms.php(62): view('forms/forms_sty...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Forms->form_wizard()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Forms))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 05:13:14 --> Invalid file: dashboard/basic_tables.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/basic...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('dashboard/basic...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\Tables.php(24): view('dashboard/basic...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Tables->index()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tables))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}
+CRITICAL - 2022-05-13 12:26:43 --> Invalid file: user_interface_elements/user_interface_elements_style1.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_interface_...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('user_interface_...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\UserInterfaceElements.php(39): view('user_interface_...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserInterfaceElements->cards()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserInterfaceElements))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}

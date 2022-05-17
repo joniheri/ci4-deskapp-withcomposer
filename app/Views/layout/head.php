@@ -22,9 +22,18 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="vendors/styles/core.css">
   <link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css">
   <link rel="stylesheet" type="text/css" href="src/plugins/jvectormap/jquery-jvectormap-2.0.3.css">
   <link rel="stylesheet" type="text/css" href="src/plugins/datatables/css/dataTables.bootstrap4.min.css">
   <link rel="stylesheet" type="text/css" href="src/plugins/datatables/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/fullcalendar/fullcalendar.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/cropperjs/dist/cropper.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/switchery/switchery.min.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-tagsinput/bootstrap-tagsinput.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/jquery-steps/jquery.steps.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/jquery-asColorPicker/dist/css/asColorPicker.css">
+  <link rel="stylesheet" type="text/css" href="src/plugins/dropzone/src/dropzone.css">
   <link rel="stylesheet" type="text/css" href="vendors/styles/style.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -51,11 +60,11 @@
   <script src="src/plugins/datatables/js/dataTables.bootstrap4.min.js"></script>
   <script src="src/plugins/datatables/js/dataTables.responsive.min.js"></script>
   <script src="src/plugins/datatables/js/responsive.bootstrap4.min.js"></script>
-
   <script src="src/plugins/jQuery-Knob-master/jquery.knob.min.js"></script>
   <script src="src/plugins/highcharts-6.0.7/code/highcharts.js"></script>
   <script src="src/plugins/highcharts-6.0.7/code/highcharts-more.js"></script>
   <script src="src/plugins/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
   <script src="src/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-
+  <script src="src/plugins/cropperjs/dist/cropper.js"></script>
+  <script src="src/plugins/cropperjs/dist/cropper-init.js"></script>
 </head>

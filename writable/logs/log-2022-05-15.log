@@ -1,0 +1,10 @@
+CRITICAL - 2022-05-15 21:51:47 --> Invalid file: user_interface_elements/user_interface_elements_style1.php
+#0 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_interface_...')
+#1 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('user_interface_...', Array, true)
+#2 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\app\Controllers\UserInterfaceElements.php(243): view('user_interface_...', Array)
+#3 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\UserInterfaceElements->carousel()
+#4 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserInterfaceElements))
+#5 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp-8.1.5\htdocs\ci4-deskapp-withcomposer\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp-8.1.5\\...')
+#8 {main}

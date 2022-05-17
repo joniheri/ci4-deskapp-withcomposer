@@ -4,24 +4,22 @@ namespace App\Controllers;
 
 use App\Models\M_notife;
 
-class Calender extends BaseController
+class Chat extends BaseController
 {
   public function index()
   {
-
-    $page = 'Calender';
-    $page_sub1 = '';
     $model_notif = new M_notife();
+    $page = 'Chat';
+    $page_sub1 = '';
 
     $data = [
       'page' => $page,
       'page_sub1' => $page_sub1,
       'dataNotife' =>  $model_notif->getData(),
-
     ];
 
     echo view('layout/head');
-    echo view('calender/calender', $data);
+    echo view('dashboard/dashboard_style1', $data);
     echo view('layout/foot');
   }
 }

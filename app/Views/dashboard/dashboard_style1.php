@@ -3,12 +3,10 @@
 <!-- End Header -->
 
 <!-- LoadingHomePage(optional) -->
-<? //= view('layout/loading_home_page'); 
-?>
+<?= view('layout/loading_home_page'); ?>
 <!-- End LoadingHomePage(optional) -->
 
 <body>
-
 
   <div class="main-container">
     <div class="pd-ltr-20">
